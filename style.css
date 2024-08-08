@@ -2,3 +2,28 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: #61dafb;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.typewriter h1 {
+    border-right: 2px solid #61dafb;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 2em;
+    animation: caret 0.75s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
